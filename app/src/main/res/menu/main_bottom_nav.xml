@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/exerciseList"
+        android:icon="@drawable/ic_fitness"
+        android:state_pressed="true"
+        android:title="Exercises"/>
+    <item
+        android:id="@+id/BeastMode"
+        android:icon="@drawable/ic_hell_button"
+        android:state_pressed="true"
+        android:title="BEASTMODE"/>
+
+    <item
+        android:id="@+id/share_main_btn"
+        android:icon="@drawable/ic_share"
+        android:state_pressed="true"
+        android:title="Share"/>
+
+</menu>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/myStats"
+        android:icon="@drawable/ic_stats"
+        android:title="My stats"/>
+    <item
+        android:id="@+id/bmiCalculate"
+        android:icon="@drawable/ic_bmi"
+        android:title="BMI calculator"/>
+    <item
+        android:id="@+id/favorites"
+        android:icon="@drawable/ic_favorites"
+        android:title="Favorites"/>
+</group>
+
+    <item android:title="Suggestions">
+    <menu>
+    <item
+        android:id="@+id/beginnerIntervals"
+        android:icon="@drawable/ic_one"
+        android:title="Beginners Intervals"/>
+    <item
+        android:id="@+id/intermediateIntervals"
+        android:icon="@drawable/ic_two"
+        android:title="Intermediate Intervals"/>
+    <item
+        android:id="@+id/advancedIntervals"
+        android:icon="@drawable/ic_three"
+        android:title="Advanced Intervals"/>
+    <item
+        android:id="@+id/expertIntervals"
+        android:icon="@drawable/ic_four"
+        android:title="Expert Intervals"/>
+    <item
+        android:id="@+id/tenminHell"
+        android:icon="@drawable/ic_five"
+        android:title="10 min in hell"/>
+
+
+</menu>
+    </item>
+</menu>

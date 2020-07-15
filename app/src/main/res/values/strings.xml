@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Beast Mode</string>
+    <string name="image">image</string>
+    <string name="str_start">START</string>
+    <string name="workoutStuff" />
+    <string name="image_contentDescription">testing</string>
+    <string name="please_click_back_again_to_exit" />
+    <string name="bmi_value_formatted"></string>
+    <string name="unit_kg" />
+    <string name="unit_cm" />
+    <string name="intervals_completed"><u>Intervals Completed:</u></string>
+    <string name="your_bmi"><u>Your BMI:</u></string>
+    <string name="quit_button_pressed"><u>Quit button pressed:</u></string>
+    <string name="beginner_button_pressed"><u>Beginner button pressed:</u></string>
+    <string name="intermediate_button_pressed"><u>Intermediate button pressed:</u></string>
+    <string name="advanced_button_pressed"><u>Advanced button pressed:</u></string>
+    <string name="expert_button_pressed"><u>Expert button pressed:</u></string>
+    <string name="ten_min_in_hell_button_pressed"><u>TEN MIN IN HELL button pressed:</u></string>
+    <string name="share">Share</string>
+    <string name="workout_time_seconds">Workout time(seconds)</string>
+    <string name="rest_time_seconds">Rest time(seconds)</string>
+    <string name="interval_amount">Interval amount</string>
+    <string name="minimize">MINIMIZE</string>
+
+</resources>

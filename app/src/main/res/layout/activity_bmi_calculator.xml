@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_exercise_bmi"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#FFFFFF"
+        android:theme="@style/ToolBarTheme"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvBMI"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            tools:text="22.4" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="212dp"
+            android:layout_height="148dp"
+            android:padding="8dp"
+            android:gravity="center"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Weight KG"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvWeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="50 Kg"
+                    android:textSize="14sp" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/sbWeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_indicatorColor="@color/colorAccent"
+                    app:dsb_max="100"
+                    app:dsb_min="0"
+                    app:dsb_progressColor="@color/colorAccent"
+                    app:dsb_rippleColor="@color/colorAccent"
+                    app:dsb_trackColor="@color/colorAccent"
+                    app:dsb_trackHeight="4dp"
+                    app:dsb_value="50" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:shadowDx="4"
+                android:shadowDy="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="4dp"
+                android:text="Height CM"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvHeight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp"
+                    android:text="100 cm"
+                    android:textSize="14sp" />
+
+                <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+                    android:id="@+id/sbHeight"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:dsb_indicatorColor="@color/colorAccent"
+                    app:dsb_max="300"
+                    app:dsb_min="0"
+                    app:dsb_progressColor="@color/colorAccent"
+                    app:dsb_rippleColor="@color/colorAccent"
+                    app:dsb_trackColor="@color/colorAccent"
+                    app:dsb_trackHeight="4dp"
+                    app:dsb_value="100" />
+
+            </LinearLayout>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/calculateBMInow"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="60dp"
+            android:background="@color/colorAccent"
+            android:drawableStart="@drawable/ic_calculate_bmi"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Calculate BMI"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/checkStats"
+            android:layout_width="175dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:layout_marginBottom="60dp"
+            android:background="@color/colorAccent"
+            android:drawableStart="@drawable/ic_check_stats"
+            android:elevation="10dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Check Stats"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
